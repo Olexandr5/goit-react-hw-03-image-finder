@@ -67,7 +67,7 @@ export class App extends Component {
     }
   };
 
-  async componentDidMount() {
+  componentDidMount() {
     window.addEventListener('keydown', this.handleKeyDown);
   }
 
